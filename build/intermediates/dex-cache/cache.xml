@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_2aad97ff6794d3251cfff5db0886147310212d16.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="045be695d968dd707691cc55d23746dbf8cf569a">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_fabb52d40845f17866497835a966f1a679ebd1a9.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d8bd2268fdcbfd52c76ade65d9900cd8def93a44">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.0_32081eb991adfb3a71c1637356adf5b184241394.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="771b3cc0e597b54da25f8086ba73180c59c6bc71">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_2a1677055d4c59aaf8688bbf4633daa0d0e3f6be.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\design\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="23eb0d2998a782213b56168cbf23a0688b9111d9">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.0_04d621cc782efd431927e5facafd22502eb6cf41.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.2.0\6be858a75633b1f0a2d24cad740db57775cb6871\support-annotations-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6be858a75633b1f0a2d24cad740db57775cb6871">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.0_27fb636a24d6530059980eebace878465615b11d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f9b41622897665678d31d78e57a361cb0cebcb0d">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.0_abca68ceb1480d9b3b47e51619ecc60f62e5c448.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-vision-9.4.0_05a46b55da11a7d0ba867ce89a816fa133c6e66c.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="60d7b23621d31e6f42f4f76f16af467e57a20cda">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_4a24994c83fb58ce61c2ddcedc614b815173b841.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f5eda279825ff470e3f51019d374d1ef61e000">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.0_63093277e09c3869f2b0666fb05d1f44f868c419.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_2adcf3cecade177ff70d083ebbe55084fada41a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="fcc945a86ebcbf527429acb8216ec7dae2c06417">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.0_542ad510f6633cf2756229c1c2ff89fc365bcd5e.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6eb9107eb34d2fe2b020662b7fbbec991dcba846">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.0_be983f70d7a9ab1472d3e2b2fa8c032f61eb811d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c755536e5a100d9c76c8ea0b72f76c018f7a9de2">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.0_78ddd6f7874c61d50248f7446029079a2606f140.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6e02e34594ebe9c0501ffda8dd48497f81b82977">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_6cf4292fd2a472611c075bf42080cc9caac66b7e.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c84e216d9bf618464d6b9564d71d9a656433e7c4">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.0_36a8c983c8142aceec5fac3c1348ce72a109b408.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="beac40bcc8a320a896dd15f5109cfcaea5e1e0e3">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.0_26b025d5c513bca5af2ce1fac5af74bd96a2f512.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_e34c951946bf8416e78086df318c6f2ee7792084.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.0\jars\libs\internal_impl-24.2.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="032a4b53def5e2ceedfc2e793b126c0163cfa1dd">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.0_cd4a44f22df903b13834a7f4efdb28dc53ecfee5.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="c3c638be6e650b165ab9ae144857b64e82787fad">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.0_7abfa89abf2a814dd5194bb77d9038267cfd24d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="f3ee23ef25c9a8fe3d40246d0b7097267963a612">
+        <dex dex="C:\Users\alsto\OneDrive\Desktop\FaceTracker\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.0_1afe59fbeff1faa57bd90554e43c7fcbbbeecbdb.jar" />
+    </item>
+
+</items>
