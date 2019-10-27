@@ -42,11 +42,11 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private static final float BOX_STROKE_WIDTH = 5.0f;
 
     private static final int COLOR_CHOICES[] = {
-            Color.BLUE,
+            //Color.BLUE,
             Color.CYAN,
             Color.GREEN,
-            Color.MAGENTA,
-            Color.RED,
+            //Color.MAGENTA,
+            //Color.RED,
             Color.WHITE,
             Color.YELLOW
     };
@@ -74,7 +74,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private int blinkCounter = 0;
     private int timeBetweenBlinks = 0;
     private boolean firstBlink = true;
-    private boolean alerted;
+    public static boolean alerted;
 
     FaceGraphic(GraphicOverlay overlay, Context context) {
         super(overlay);
@@ -126,9 +126,8 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         float y = translateY(face.getPosition().y + face.getHeight() / 2);
         canvas.drawCircle(x, y, FACE_POSITION_RADIUS, mFacePositionPaint);
         canvas.drawText("id: " + mFaceId, x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
-        canvas.drawText("happiness: " + String.format("%.2f", face.getIsSmilingProbability()), x - ID_X_OFFSET, y - ID_Y_OFFSET, mIdPaint);
-        canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
-        canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET * 2, mIdPaint);
+        canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET, mIdPaint);
+        canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x + ID_X_OFFSET * 5, y - ID_Y_OFFSET, mIdPaint);
 
         // Draws a bounding box around the face.
         float xOffset = scaleX(face.getWidth() / 2.0f);
@@ -140,6 +139,8 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         canvas.drawRect(left, top, right, bottom, mBoxPaint);
 
         detectBlinks(face, canvas, x, y);
+        canvas.drawText("Drowsy blinks in the last minute: " + blinkCounter, x + ID_X_OFFSET * 5, y - ID_Y_OFFSET * 15, mIdPaint);
+
         sleepingWarning(face);
     }
 
@@ -177,7 +178,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
                     int cutTime = time / (int) Math.pow(10, 2);
                     String stringTime = (cutTime / 10) + "." + (cutTime % 10);
                     Log.d("blinkTime", stringTime);
-                    canvas.drawText(stringTime, x + ID_X_OFFSET * 4, y - ID_Y_OFFSET * 5, mIdPaint); // if time > some threshold, then they are asleep
+                    //canvas.drawText(stringTime, x + ID_X_OFFSET * 4, y - ID_Y_OFFSET * 5, mIdPaint);
 
                     if (time >=1000 && (int)System.currentTimeMillis() < timeBetweenBlinks+minuteTimer(1) && !firstBlink){
                         blinkCounter += 1;
@@ -189,20 +190,20 @@ class FaceGraphic extends GraphicOverlay.Graphic {
                         timeBetweenBlinks = (int)System.currentTimeMillis();
                         Log.d("blink counter","2" + blinkCounter);
                     }
-
-                    else if (time >=1000 && (int)System.currentTimeMillis() > timeBetweenBlinks+minuteTimer(1)){
+                    else if ((int)System.currentTimeMillis() > timeBetweenBlinks+minuteTimer(1)){
                         blinkCounter = 0;
                         firstBlink = true;
                         Log.d("blink counter","3" + blinkCounter);
                     }
 
-                    if (time >= 1000 && blinkCounter > 2 ){
+                    if (time >= 1000 && blinkCounter >= 3){
                         Log.d("blink counter","4" + blinkCounter);
                         //alarmSound();
                         if (!alerted) {
                             FaceTrackerActivity.getInstance().restAlert();
                             alerted = true;
                         }
+                        blinkCounter = 0;
                     }
                 }
                 break;
@@ -249,7 +250,4 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         }
         return r_v;
     }
-
-
-
 }

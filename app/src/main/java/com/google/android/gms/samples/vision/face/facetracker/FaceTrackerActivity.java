@@ -346,6 +346,7 @@ public final class FaceTrackerActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int id) {
                         getInstance().startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.google.com/maps/dir/?api=1&destination=gas+station&travelmode=driving")));
                         dialog.cancel();
+                        FaceGraphic.alerted = false;
                     }
                 });
 
@@ -354,6 +355,7 @@ public final class FaceTrackerActivity extends AppCompatActivity {
                 new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.cancel();
+                        FaceGraphic.alerted = false;
                     }
                 });
 
